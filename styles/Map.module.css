@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'KOTRA_BOLD-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.userlocationbutton {
+  background-color: #ffe8b1;
+  border-radius: 100px;
+  font-size: 130%;
+  white-space: pre-line;
+  padding: 1rem 0;
+  margin-right: 3%;
+  margin-top: 7.5rem;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  z-index: 1000;
+  font-family: "Pretendard-Regular", sans-serif;
+}
+
+.here {
+  z-index: 2000;
+}
